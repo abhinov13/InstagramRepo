@@ -1,0 +1,1291 @@
+body {
+   color: white;
+}
+
+.centre_vertically {
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+.centre_horizontally {
+   left: 50%;
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+
+.login_page_wrapper {
+   background-color: #FFFFFF;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   color: black;
+}
+
+.login_page {
+   width: 100%;
+   height: 85%;
+   position: absolute;
+}
+
+.login_left {
+   float: left;
+   height: 100%;
+   width: 45%;
+}
+
+.login_right {
+   float: right;
+   width: 45%;
+   height: 100%;
+   margin-right: 0px;
+}
+
+.login_form {
+   border: 1px solid gainsboro;
+   height: 70%;
+   width: 100%;
+   position: relative;
+}
+
+.login_logo {
+   position: relative;
+   height: 14%;
+   width: 80%;
+   top: 9%;
+}
+
+.forgot_logo {
+   position: relative;
+   height: 15%;
+   width: 18%;
+   top: 4%;
+   border: 2px solid black;
+   border-radius: 50%;
+   padding: 5%;
+}
+
+.login_input {
+   margin-top: 25%;
+}
+
+.login_input>input {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+.text_input {
+   margin-top: 2%;
+   padding: 4%;
+   background-color: #FAFAFA;
+   border: 1px solid #E0E0E0;
+}
+
+.submit_button {
+   margin-top: 5%;
+   padding: 3%;
+   background-color: #4CB5F9;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+   cursor: pointer;
+}
+
+.signup_option {
+   border: 1px solid gainsboro;
+   margin-top: 3%;
+   padding: 5%;
+   text-align: center;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background-color: #101010;
+}
+
+.homepage_wrapper {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+}
+
+.side_bar {
+   border-right: 1px solid #222222;
+   flex-shrink: 0;
+   height: 100%;
+   width: 16%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: white;
+}
+
+.side_bar_small {
+   border-right: 1px solid #222222;
+   height: 100%;
+   width: 5%;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.sidebar_logo {
+   height: 15%;
+   width: 100%;
+}
+
+.sidebar_small_logo {
+   width: 40%;
+   align-self: center;
+}
+
+.app_options {
+   height: 80%;
+   width: 100%;
+   align-self: flex-end;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   overflow: hidden;
+}
+
+.side_bar_small>div {
+   height: 80%;
+   width: 100%;
+   bottom: 0;
+   cursor: pointer;
+}
+
+.side_bar>div>div {
+   height: 13%;
+   width: 95%;
+   padding-left: 8%;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.side_bar_small>div>div {
+   height: 11%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.side_bar>div>div>img,
+side_bar_button_img {
+   min-height: 20px;
+   height: 40%;
+}
+
+.side_bar_button_text {
+   padding-left: 3%;
+}
+
+.side_bar_small>div>div>img {
+   height: 70%;
+   width: 40%;
+}
+
+.post_container {
+   height: calc(100vh - 2%);
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+   align-items: center;
+}
+
+.post_wrapper {
+   width: 50%;
+   margin-top: 1%;
+   padding: 2%;
+   border-radius: 10px;
+   color: white;
+   background-color: #131313;
+}
+
+.post_head {
+   height: 6vh;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.post_user_img {
+   height: 90%;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+   background-color: gray;
+   border: 1px solid #1e272e;
+   overflow: hidden;
+}
+
+.post_user_img>img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.dot_seperator {
+   border-radius: 50%;
+   height: 0.5vh;
+   aspect-ratio: 1/1;
+   background-color: gray;
+   position: relative;
+}
+
+.date_posted {
+   color: gray;
+}
+
+.post_menu {
+   height: 45%;
+   width: 6%;
+   margin-left: auto;
+}
+
+.post_menu>img {
+   height: 100%;
+   width: 100%;
+}
+
+.post_data {
+   width: 100%;
+}
+
+.post_data>img {
+   width: 100%;
+   height: 100%;
+}
+
+.post_data>div {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.post_data>div>video {
+   width: 100%;
+   height: 100%;
+   flex-shrink: 0;
+}
+
+.post_data>div>div {
+   width: 100%;
+   flex-shrink: 0;
+   margin-left: -100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.post_data>div>div>img {
+   width: 10%;
+   aspect-ratio: 1/1;
+   z-index: 2;
+   visibility: hidden;
+}
+
+.post_data:hover div>div>img {
+   visibility: visible;
+}
+
+.post_interact {
+   margin-top: 1%;
+   height: 3vh;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.post_interact>div {
+   width: 8%;
+   aspect-ratio: 1/1;
+   display: grid;
+}
+
+.post_interact>div>img {
+   height: 100%;
+   width: 100%;
+   transition: opacity 0.3s;
+}
+
+.liked>img,
+.post_interact>div>img {
+   min-height: 0;
+   min-width: 0;
+   grid-row: 1;
+   grid-column: 1;
+}
+
+.post_description {
+   margin-top: 2%;
+   font-size: 0.8rem;
+   line-height: 1.8em;
+}
+
+.post_comment{
+   height: 5vh;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+.post_comment>input{
+   height: 90%;
+   background-color: rgba(0,0,0,0);
+   border: 0px;
+   color: white;
+   border-bottom: 1px solid gray;
+   flex: 1;
+   margin-right: 1.5%;
+}
+
+.post_comment>focus{
+   outline: none;
+}
+
+.post_comment>button{
+   background-color: #2d3436;
+   border: none;
+   outline: none;
+   height: 80%;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+   cursor: pointer;
+}
+
+.comment {
+   width: 100%;
+   height: 5%;
+   color: white;
+   margin-top: 3%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.comment>input {
+   flex: 1;
+   margin-right: 1.5%;
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+   color: white;
+   border-bottom: 1px solid gray;
+}
+
+.comment>input:focus {
+   outline: none;
+}
+
+.comment>button {
+   background-color: #2d3436;
+   border: none;
+   outline: none;
+   min-width: 40px;
+   width: 12.5%;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+   cursor: pointer;
+}
+
+.people_container {
+   height: 67%;
+   width: 23%;
+   margin-top: 2%;
+   margin-right: 8%;
+   color: white;
+   display: flex;
+   flex-direction: column;
+}
+
+.person {
+   height: 15%;
+   font-size: 0.9rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.person>div {
+   align-self: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.person_image {
+   height: 60%;
+   width: 60%;
+   align-self: center;
+   background-color: #34495e;
+   border-radius: 50%;
+}
+
+.person_image>img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   padding: 0;
+}
+
+.person>div>div>img {
+   border-radius: 50%;
+   height: 100%;
+   width: 100%;
+}
+
+.banner_wrapper {
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 100vh;
+   width: 100vw;
+   z-index: 5;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+}
+
+.post_banner {
+   color: white;
+   font-size: 0.9rem;
+   align-self: center;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.post_banner>div {
+   align-self: center;
+   text-align: center;
+   background-color: #222222;
+   width: 32%;
+   height: 8%;
+   border-bottom: 1px solid #2d3436;
+   display: flex;
+   justify-content: center;
+}
+
+.post_banner>div>div {
+   align-self: center;
+}
+
+.upload {
+   background-color: #222222;
+   width: 50%;
+   height: 80%;
+   align-self: center;
+   border-radius: 2%;
+   display: flex;
+   flex-direction: column;
+}
+
+.banner_header {
+   text-align: center;
+   height: 6%;
+   padding-top: 1%;
+}
+
+.create_post_seperator {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 1%;
+   width: 100%;
+   height: 88%;
+}
+
+.create_post_seperator>div {
+   height: 100%;
+}
+
+.create_post_control {
+   display: flex;
+   flex-direction: column;
+   margin-top: 1%;
+}
+
+.create_post_control>textarea {
+   background-color: rgba(0, 0, 0, 0);
+   color: white;
+   height: 50%;
+   margin-top: 2%;
+}
+
+.create_post_control>label {
+   align-self: center;
+   text-align: center;
+   width: 60%;
+   height: 5%;
+   margin-top: 10%;
+   background-color: #2C95D9;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+.post_popup_body {
+   align-self: center;
+   background-color: #101010;
+   height: 90%;
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   transition: opacity 1s;
+}
+
+.post_popup_body>div{
+   min-height: 600px;
+}
+
+.post_popup_image {
+   height: 100%;
+   width: 50%;
+}
+
+.post_popup_image>video {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+.post_popup_description {
+   height: 100%;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   border-left: 1px solid #2d3436;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.post_popup_description>div {
+   display: flex;
+   text-wrap: wrap;
+}
+
+.post_popup_description_value {
+   width: 90%;
+   height: 12%;
+   padding-top: 3%;
+   word-wrap: wrap;
+   overflow-y: scroll;
+}
+
+.post_popup_owner {
+   height: 6vh;
+   padding-top: 2%;
+}
+
+.post_popup_owner>img {
+   align-self: center;
+   border-radius: 50%;
+   height: 60%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   background-color: #101010;
+}
+
+.post_popup_owner>div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 2%;
+}
+
+.comment_section {
+   height: 67%;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   overflow: scroll;
+}
+
+div {
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+}
+
+div::-webkit-scrollbar {
+   display: none;
+}
+
+.comment_wrapper {
+   height: 14%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+.comment_wrapper>div {
+   width: 90%;
+}
+
+.comment_user_img {
+   height: 50%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.comment_content {
+   margin-left: 2%;
+   flex-grow: 1;
+   height: 50%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.comment_wrapper>div>div>div {
+   margin-left: 2%;
+   width: 90%;
+   overflow: scroll;
+   height: 100%;
+   font-size: small;
+}
+
+.comment_options {
+   display: flex;
+   flex-direction: row;
+   width: 90%;
+   padding-left: 2%;
+}
+
+.comment_options>div {
+   max-width: fit-content;
+}
+
+.suggested_container {
+   margin-top: 3%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   flex: 1;
+}
+
+.suggested_container>div {
+   width: 50%;
+   min-height: 45px;
+}
+
+.suggested_person {
+   margin-top: 0.5%;
+   display: flex;
+   flex-direction: row;
+   height: 7%;
+   font-size: small;
+}
+
+.suggested_person>div {
+   height: 100%;
+   margin-left: 1%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.suggested_person>div>img {
+   height: 85%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.suggested_person>div>button {
+   margin-top: 5%;
+   padding: 3%;
+   background-color: #4CB5F9;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+}
+
+.search_wrapper {
+   flex: 1;
+   height: 97%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.search_option {
+   display: flex;
+   flex-direction: row;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 5%;
+   width: 80%;
+   justify-content: space-between;
+}
+
+.search_option>div {
+   flex: 1;
+   margin-left: 2%;
+   cursor: pointer;
+}
+
+.search_option>div:hover {
+   background-color: #2d3436;
+}
+
+.search_wrapper>form {
+   height: 3%;
+}
+
+.search_input {
+   width: 50%;
+   margin-top: 3%;
+   display: flex;
+   flex-direction: row;
+   height: 100%;
+   border-radius: 10px;
+   padding: 1%;
+   background-color: #2d3436;
+}
+
+.search_input>input {
+   flex: 1;
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+   color: white;
+}
+
+.search_input>input:focus {
+   outline: none;
+}
+
+.search_input>button {
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+}
+
+.search_container {
+   margin-top: 3%;
+   height: 10%;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+   overflow-y: scroll;
+}
+
+.search_container>div {
+   width: 50%;
+}
+
+.notifications {
+   flex: 1;
+   height: 96%;
+   display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+   align-items: center;
+   margin-top: 2%;
+}
+
+.notifications>div {
+   flex-shrink: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 1%;
+   padding-right: 2%;
+   width: 50%;
+   height: 7vh;
+   margin-top: 1%;
+   background-color: #2c3e50;
+}
+
+.notifications>div>div>span {
+   color: #95a5a6
+}
+
+.notifications>div>div {
+   height: 70%;
+   display: flex;
+   align-items: center;
+}
+
+.notifications>div>div>img {
+   height: 100%;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+}
+
+.notification_follow_button {
+   height: 70%;
+   width: 15%;
+   min-width: 50px;
+}
+
+.notification_follow_button>div {
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   background-color: #2C95D9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   text-align: center;
+}
+
+.userwrapper {
+   flex: 1;
+   height: 96%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 2%;
+   overflow-y: scroll;
+   background-color: #101010;
+}
+
+.userdata {
+   height: 30%;
+   width: 70%;
+   padding-left: 3%;
+   padding-right: 3%;
+   border-bottom: 1px solid #2c3e50;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.useravatar {
+   width: 18%;
+   min-width: 60px;
+   border-radius: 50%;
+   overflow: hidden;
+   aspect-ratio: 1/1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #222222;
+}
+
+.useravatar>img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.usercontrols {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 1;
+   margin-left: 2%;
+   height: 75%;
+}
+
+.usercontrols>div {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 25%;
+}
+
+.usercontrols>div>div {
+   margin-right: 5%;
+}
+
+.user_follow_button {
+   margin-left: 5%;
+   background-color: #34495e;
+   height: 100%;
+   width: 20%;
+   border-radius: 10px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.user_posts {
+   margin-top: 2%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 70%;
+   height: 65%;
+}
+
+.user_posts>div {
+   display: flex;
+   flex-direction: row;
+   height: 100%;
+   aspect-ratio: 1/1;
+}
+
+.user_posts>div>div
+{
+   height: 100%;
+   width: 100%;
+   display: flex;
+}
+
+.user_posts>div>div>div{
+   height: 100%;
+   width: 100%;
+   z-index: 2;
+   flex-shrink: 0;
+   margin-left: -100%;
+   display: flex;
+}
+
+.user_posts>div>div>div>img{
+   height: 10%;
+   width: 10%;
+   align-self: flex-end;
+   margin-left: 2%;
+   margin-bottom: 2%;
+}
+
+.user_posts>div>img,
+.user_posts>div>div>video {
+   height: 100%;
+   width: 100%;
+   flex-shrink: 0;
+   object-fit: cover;
+   z-index: 1;
+}
+
+.user_post_item {
+   height: 100%;
+   width: 100%;
+   flex-shrink: 0;
+   margin-left: -100%;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgba(0, 0, 0, 0);
+}
+
+.user_post_item:hover {
+   color: white;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profile_uploader_wrapper {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 5;
+   background-color: rgba(0, 0, 0, 0.6);
+   transition: opacity 1s;
+}
+
+.profile_uploader_wrapper>div {
+   height: 65%;
+   aspect-ratio: 2/1;
+   background-color: #1d2426;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.profile_uploader_wrapper>div>div {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.profile_uploader_wrapper>div>div>img {
+   height: 80%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 50%;
+   background-color: #101010;
+}
+
+.profile_uploader_wrapper>div>div>div {
+   display: flex;
+   flex-direction: column;
+   height: 60%;
+   width: 50%;
+   justify-content: space-around;
+}
+
+.profile_uploader_wrapper>div>div>div>label {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20%;
+   background-color: #2C95D9;
+}
+
+.chat_wrapper{
+   flex: 1;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.lobby_wrapper{
+   margin-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+   max-width: 30vw;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   border-right: 1px solid #222222;
+}
+
+.lobby_header{
+   width: 100%;
+   height: 10%;
+   margin-top: 3%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-size: larger;
+}
+
+.lobby_header>div{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.lobby_header>div>img{
+   height: 50%;
+   aspect-ratio: 1/1;
+   cursor: pointer;
+}
+
+.message_holder{
+   flex: 1;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.lobby{
+   flex: 1;
+   margin-top: 3%;
+   overflow-y: scroll;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.lobby>div{
+   margin-bottom: 2%;
+   width: 100%;
+   max-width: 100%;
+   height: 10%;
+   flex-shrink: 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: #151515;
+   border-radius: 10px;
+}
+
+.lobby>div>div{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.lobby>div>div>img{
+   height: 100%;
+   aspect-ratio: 1/1;
+   background-color: #1e272e;
+   border-radius: 50%;
+}
+
+.search_user_wrapper{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0,0,0,0.7);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.search_user_wrapper>div{
+   width: 30%;
+   overflow-y: scroll;
+   aspect-ratio: 1/1;
+   border-radius: 10px;
+   background-color: #1d2426;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.search_user_wrapper>div>div{
+   width: 96%;
+   padding-left: 2%;
+   padding-right: 2%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   flex-shrink: 0;
+}
+
+.empty_message{
+   height: 30%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.empty_message>div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.empty_message>div>img{
+   height: 50%;
+   width: 50%;
+   object-fit: contain;
+}
+
+.empty_message>button{
+   margin-top: 2%;
+   border: 0;
+   outline: 0;
+   padding: 1%;
+   border-radius: 10px;
+   background-color: #2C95D9;
+   color: white;
+   font-weight: bold;
+}
+
+.app_logo{
+   background-image: url("/public/instaLogoDark.svg");
+   height: 20%;
+   background-size: 80% 80%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+@media only screen and (max-width: 1000px) {
+   .people_container{
+      display: none;
+   }
+
+   .search_user_wrapper>div{
+      width: 50%;
+   }
+
+   .post_wrapper{
+      width: 70%;
+   }
+
+}
+
+@media only screen and (max-width: 700px){
+
+   .suggested_container>div{
+      width: 90%;
+   }
+
+   .post_popup_body{
+      flex-direction: column;
+      overflow-y: scroll;
+   }
+
+   .post_popup_body > div{
+      width: 100%;
+   }
+
+   .notifications>div{
+      width: 100%;
+   }
+
+   .search_input{
+      width: 90%
+   }
+
+   .search_container>div{
+      min-height: 40px;
+      width: 70%;
+   }
+
+   .search_user_wrapper>div{
+      width: 80%;
+   }
+   .upload{
+      width: 90%;
+   }
+}
+
+@media only screen and (max-width: 870px){
+
+   .login_left{
+      display: none;
+   }
+
+   .login_right{
+      width: 100%;
+   }
+
+   .create_post_control>label{
+      width: 100%;
+   }
+   
+   .user_posts{
+      width: 90%;
+   }
+
+   .post_wrapper{
+      width: 80%;
+   }
+
+   .side_bar{
+      width: 54px;
+   }
+
+   .app_logo{
+      background-image: url("/public/instaSmallLogo.svg");
+   }
+
+   .side_bar>div>div{
+      justify-content: center;
+   }
+
+   .side_bar>div>div>span{
+      display: none;
+   }
+
+}
